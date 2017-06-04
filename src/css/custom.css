@@ -1,0 +1,187 @@
+/*
+ * $Id: custom.css,v 1.23 2005/06/26 17:31:49 mmr Exp $
+ * mmr 2005-01-25
+ *
+ * CSS for specific layout customization
+ */
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* Main */
+#container {
+  text-align: left;
+  border: 1px solid #77a;
+  width: 95%;
+  margin: 10px auto;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* Header */
+#header {
+  border-bottom: 10px solid #117;
+  text-align: left;
+  background: #77a;
+}
+
+#header h1 {
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+  font-size: 20px;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* Left */
+#left {
+  float: left;
+  width: 170px;
+  padding: 10px;
+  font-size: 80%;
+  _font-size: 8pt;
+  border-right: 1px solid #77a;
+}
+
+#left table {
+  width: 100%;
+  border: 1px dotted #77a;
+}
+
+#left td {
+  padding: 3px;
+  font-size: 80%;
+}
+
+#left td.number {
+  text-align: right;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* Right */
+#right {
+  margin-left: 190px;
+  padding: 10px 20px 10px 20px;
+  border-left: 1px solid #77a;
+}
+
+#right ol, #right ol li {
+  line-height: 110%;
+  margin-left: 15px;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+/* Footer */
+#footer {
+  border-top: 10px solid #117;
+  background: #77a;
+  color: #fff;
+  clear: both;
+  text-align:center;
+  padding: 10px;
+  font-size: 70%;
+}
+
+#footer a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+/* Search */
+#search {
+  text-align: left;
+  border-collapse: collapse;
+}
+
+#search td, #search th {
+  padding: 5px;
+}
+
+#search td.s_date {
+  font-style: italic;
+}
+
+#search td.s_number {
+  text-align: right;
+}
+
+#s_navigation ul {
+  list-style-type: none; 
+}
+
+#s_navigation ul li {
+  display: block;
+  padding: 3px;
+  float: left;
+}
+
+/*
+#search tr.s_even {
+  background-color: #99b;
+  color: #fff;
+}
+
+#search tr.s_odd {
+  background-color: #ddf;
+  color: #000;
+}
+
+#search tr.s_even td a {
+  color: #fff;
+}
+
+#search tr.s_odd td a {
+  color: #000;
+}
+*/
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+/* Misc */
+#exception {
+  background: #a77;
+  color: #fff;
+  font-family: verdana, arial, helvetica, sans-serif;
+  border: 2px solid #711;
+  margin: 5px;
+  padding: 5px;
+}
+
+#geshi_ol {
+  list-style-type: decimal;
+}
+
+#standards, #feeds {
+  border: 1px dotted #77a;
+  padding: 5px;
+  text-align: center;
+}
+
+#standards a, #feeds a {
+  background: none;
+  padding: 1px;
+}
+
+#links {
+  border: 1px dotted #77a;
+  padding: 5px;
+  text-align: left;
+}
+
+#links ul li {
+  list-style: inline;
+}
+
+#code pre {
+  width: 99%;
+  margin-left: 0;
+  padding-left: 0;
+  _overflow: auto;
+  _overflow-y: hidden;
+}
+
+#code pre ol {
+  padding-bottom: 15px;
+  margin-left: 25px;
+}
+
+span.interval {
+  font-size: 90%;
+}
